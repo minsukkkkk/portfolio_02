@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오리온</title>
+
+  <!-- font -->
+  <link rel="stylesheet" href="css/font.css">
+  <!-- web-icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="inner">
+      <h1><a href="#"><img src="img/common/logo (2).png" alt="오리온"></a></h1>
+      <nav>
+        <ul class="gnb">
+          <li><a href="sub/introduce.html">회사소개</a>
+            <ul class="depth2">
+              <li><a href="#">오리온</a></li>
+              <li><a href="#">역사관</a></li>
+              <li><a href="#">오리온 계열사</a></li>
+              <li><a href="#">오시는길</a></li>
+            </ul>
+          </li>
+          <li><a href="#">사업분야</a>
+            <ul class="depth2">
+              <li><a href="#">제과</a></li>
+              <li><a href="#">닥터유</a></li>
+              <li><a href="#">마켓오네이쳐</a></li>
+              <li><a href="#">바이오</a></li>
+            </ul>
+          </li>
+          <li><a href="#">윤리경영</a>
+            <ul class="depth2">
+              <li><a href="#">개요</a></li>
+              <li><a href="#">임직원</a></li>
+              <li><a href="#">고객</a></li>
+              <li><a href="#">협력회사</a></li>
+              <li><a href="#">주주</a></li>
+              <li><a href="#">사회</a></li>
+              <li><a href="#">보고서 및 주요성과</a></li>
+            </ul>
+          </li>
+          <li><a href="#">투자정보</a>
+            <ul class="depth2">
+              <li><a href="#">주식정보</a></li>
+              <li><a href="#">주주총회</a></li>
+              <li><a href="#">기업지배구조</a></li>
+              <li><a href="#">재무정보</a></li>
+              <li><a href="#">IR문의</a></li>
+            </ul>
+          </li>
+          <li><a href="#">뉴스룸</a>
+            <ul class="depth2">
+              <li><a href="#">보도자료</a></li>
+              <li><a href="#">인스타그램</a></li>
+              <li><a href="#">유튜브</a></li>
+            </ul>
+          </li>
+          <li><a href="#">고객센터</a>
+            <ul class="depth2">
+              <li><a href="#">상담페이지</a></li>
+              <li><a href="#">피해보상기구</a></li>
+              <li><a href="#">자주묻는질문</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="until">
+        <button class="en">English</button>
+        <button class="btn_sch">검색</button>
+        <button class="btn_ham">ham</button>
+      </div>
+      <div class="mgnb_wrap">
+        <div class="mgnb">
+          <img src="img/common/logo (2).png" alt="로고">
+          <ul>
+            <li><a href="#">회사소개</a>
+              <ul class="mdepth2">
+                <li><a href="#">오리온</a></li>
+                <li><a href="#">역사관</a></li>
+                <li><a href="#">오리온 계열사</a></li>
+                <li><a href="#">오시는길</a></li>
+              </ul>
+            </li>
+            <li><a href="#">사업분야</a>
+              <ul class="mdepth2">
+                <li><a href="#">제과</a></li>
+                <li><a href="#">닥터유</a></li>
+                <li><a href="#">마켓오네이쳐</a></li>
+                <li><a href="#">바이오</a></li>
+              </ul>
+            </li>
+            <li><a href="#">윤리경영</a>
+              <ul class="mdepth2">
+                <li><a href="#">개요</a></li>
+                <li><a href="#">임직원</a></li>
+                <li><a href="#">고객</a></li>
+                <li><a href="#">협력회사</a></li>
+                <li><a href="#">주주</a></li>
+                <li><a href="#">사회</a></li>
+                <li><a href="#">보고서 및 주요성과</a></li>
+              </ul>
+            </li>
+            <li><a href="#">투자정보</a>
+              <ul class="mdepth2">
+                <li><a href="#">주식정보</a></li>
+                <li><a href="#">주주총회</a></li>
+                <li><a href="#">기업지배구조</a></li>
+                <li><a href="#">재무정보</a></li>
+                <li><a href="#">IR문의</a></li>
+              </ul>
+            </li>
+            <li><a href="#">뉴스룸</a>
+              <ul class="mdepth2">
+                <li><a href="#">보도자료</a></li>
+                <li><a href="#">인스타그램</a></li>
+                <li><a href="#">유튜브</a></li>
+              </ul>
+            </li>
+            <li><a href="#">고객센터</a>
+              <ul class="mdepth2">
+                <li><a href="#">상담페이지</a></li>
+                <li><a href="#">피해보상기구</a></li>
+                <li><a href="#">자주묻는질문</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <button class="mgnb_close">모바일 메뉴닫기</button>
+      </div>
+
+    </div>
+    <div class="depth2_bg"></div>
+
+    <div class="search">
+      <form>
+        <fieldset>
+          <legend>검색영역</legend>
+          <div class="sch_box">
+            <input type="text" placeholder="검색어를 입력해 주세요!">
+            <input type="submit" value="검색">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </header>
+  <div id="fullpage">
+    <section id="visual" class="section">
+      <div class="swiper mv">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide mv1">
+            <div class="mv_txt">
+              <h2>제과를 넘어 글로벌 식품ㆍ헬스케어 기업</h2>
+              <p>오리온은 음료, 간편대용식, 바이오 등 3대 신규 사업의<br>
+                성장체제를 확립하고 제2도약을 해나가고 있습니다.</p>
+            </div>
+          </li>
+          <li class="swiper-slide mv2">
+            <div class="mv_txt">
+              <h2>K-스낵’ 영토 확장에 앞장...<br>
+                해외현지화 전략 통한 글로벌 진출!</h2>
+              <p>중국과 러시아, 베트남, 인도에 총 11개의 생산 공장을 가동하고<br>
+                철저한 현지화 전략을 통해 전 세계 소비자들로부터 사랑받는<br>
+                제품들로 지속 성장해가고 있습니다.</p>
+            </div>
+          </li>
+          <li class="swiper-slide mv3">
+            <div class="mv_txt">
+              <h2>윤리경영과 연계한 ESG 활동 지속</h2>
+              <p>오리온은 그룹 경영방침인 윤리경영에 기반한 ESG 활동을 통해 지속가능한 성장을 추구해 나갈 것입니다.<br>
+                또한, 친환경 인쇄방식 도입, TFT 구성, 설비 개선, 착한 포장 프로젝트 등 주요 정보를 외부에 투명하게 공개하고<br>
+                친환경 경영에도 적극 앞장서고 있습니다.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="scroll">
+          <div class="bar">
+            <span class="ball"></span>
+          </div>
+          <div>SCROLL</div>
+        </div>
+        <div class="btn_control">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section id="business" class="section">
+      <div class="inner">
+        <h2>오리온의 사업분야</h2>
+        <p>제과를 넘어 글로벌 식품·헬스케어 기업으로<br>
+          오리온은 세계를 무대로 더 높이 도약합니다.</p>
+        <ul>
+          <li class="active">
+            <dl>
+              <dt>제과</dt>
+              <dd>맛있고 품질좋은 제품을<br>
+                합리적인 가격으로 공급합니다.</dd>
+              <dd class="btn_more">
+                <a href="#">바로가기<i class="bi bi-arrow-right"></i></a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>닥터유</dt>
+              <dd>현대인의 식습관을 맞춤 영양 설계 브랜드로<br>
+                맛있는 건강을 추구합니다.</dd>
+              <dd class="btn_more">
+                <a href="#">바로가기<i class="bi bi-arrow-right"></i></i></a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>마켓오네이쳐</dt>
+              <dd>자연원물 그대로의 정직하고 건강한 맛을 담은<br>
+                간편식사대용식 브랜드 입니다.</dd>
+              <dd class="btn_more">
+                <a href="#">바로가기<i class="bi bi-arrow-right"></i></a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>바이오</dt>
+              <dd>진단키트 사업을 시작으로 백신, 신약 발굴 개발까지<br>
+                제약/바이오 Platform 기업을 추구합니다.</dd>
+              <dd class="btn_more">
+                <a href="#">바로가기<i class="bi bi-arrow-right"></i></a>
+              </dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="management" class="section">
+      <div class="inner">
+        <div class="mg_txt">
+          <h2>오리온의 윤리경영</h2>
+          <p>준법과 윤리에 기반한 경영활동을 통해<br>
+            모든 이해관계자에게 기여함으로써 <br>
+            지속적으로 성장해 나가는 것입니다.</p>
+        </div>
+        <div class="swiper mg_img">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide bg1"><a href="#">
+                <h3>개요</h3>
+                <p>윤리경영을 기반으로 한<br>
+                  지속성장을 추구합니다.
+                </p>
+              </a></li>
+            <li class="swiper-slide bg2"><a href="#">
+                <h3>임직원</h3>
+                <p>임직원의 행복과<br>
+                  발전을 중시합니다.
+                </p>
+              </a></li>
+            <li class="swiper-slide bg3"><a href="#">
+                <h3>고객</h3>
+                <p>고객의 만족을<br>
+                  추구합니다.
+                </p>
+              </a></li>
+            <li class="swiper-slide bg4"><a href="#">
+                <h3>협력회사</h3>
+                <p>협력회사와 동반성장을<br>
+                  실현합니다.
+                </p>
+              </a></li>
+            <li class="swiper-slide bg5"><a href="#">
+                <h3>주주</h3>
+                <p>주주가치를<br>
+                  증대합니다.
+                </p>
+              </a></li>
+            <li class="swiper-slide bg6"><a href="#">
+                <h3>사회</h3>
+                <p>사회에 대한 책임을<br>
+                  다합니다.
+                </p>
+              </a></li>
+            <li class="swiper-slide bg7"><a href="#">
+                <h3>보고서 및<br> 주요성과</h3>
+                <p>윤리경영 주요활동 및<br>
+                  성과를 소개합니다.
+                </p>
+              </a></li>
+          </ul>
+        </div>
+        <div class="btn_control">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section id="policies" class="section">
+      <div class="inner">
+        <h2>오리온의 <span>경영방침</span></h2>
+        <p>'맛있고 품질 좋은 제품을 합리적인 가격으로 공급한다'<br>
+          오리온은 원칙과 기준을 지키는 윤리경영으로<br>
+          고객에게 신뢰받으며 지속적으로 성장합니다.</p>
+        <img src="img/main/image 3.png" alt="경영방침">
+      </div>
+    </section>
+    <!-- news -->
+    <section id="news" class="section">
+      <div class="inner">
+        <h2>오리온의 <span>뉴스룸</span></h2>
+        <p>오리온의 다양한 소식과 정보를 확인하세요.</p>
+        <div class="swiper news_img">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new1.jfif" alt="뉴스1">
+                <p>고래밥&초코송이X하츄핑<br>
+                  운명적인 만남💕 콜라보 패키지 출시 기념 이벤트!!</p>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new2.jfif" alt="뉴스1">
+                <p>💪 맨몸 운동의 끝판왕 💪<br>
+                  레슬링 국가대표의 건강 관리 루틴 대!공!개!</p>
+              </a>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new3.jfif" alt="뉴스1">
+                <p>무한 더위 날려버릴 여름시즌 한정판 3종<br> 선물세트가 왔어요!</p>
+              </a>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new4.jpg" alt="뉴스1">
+                <p>지금 놓치면 안되는 햇감자칩 시즌🥔</p>
+              </a>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new5.jfif" alt="뉴스1">
+                <p>초코파이에게 부탁하고 싶은 이야기가 있다면?</p>
+              </a>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new6.jfif" alt="뉴스1">
+                <p>여름 한정판 3종 제품은 과연 어떤 과일 맛일지<br> 맞혀보세요!</p>
+              </a>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new7.jpg" alt="뉴스1">
+                <p>50년이란 긴 시간 속에서<br>
+                  초코파이와 함께한 여러분의 정(情) 이야기💌</p>
+              </a>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new8.jpg" alt="뉴스1">
+                <p>오리온 감자스낵 유니버스</p>
+              </a>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/new9.jpg" alt="뉴스1">
+                <p>닥터유PRO 단백질드링크 24g<br> 신상 라인업 딸기맛 등장‼</p>
+              </a>
+              </a></li>
+          </ul>
+        </div>
+        <div class="btn_control">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="section fp-auto-height">
+      <div class="footer_top">
+        <ul class="ft">
+          <li>
+            <p>실시간 주가정보</p>
+            <h4>91,100</h4>
+            <p class="ir">전일대비 -500 등락율 -0.55% <img src="img/common/Polygon 2.png" alt="주가"></p>
+
+          </li>
+          <li><a href="#">
+              <img src="img/common/customer-service.png" alt="cs">
+              <h3>CS CENTER</h3>
+              <p>언제나 고객님의 곁에서 소중한 의견<br>
+                귀 기울이겠습니다.</p>
+            </a></li>
+          <li>
+            <a href="#">
+              <img src="img/common/eco-factory.png" alt="factory">
+              <h3>FACTORY TOUR</h3>
+              <p>공장 견학을 통해 오리온의 제품을<br>
+                직접 체험해 보세요.</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="inner">
+        <div class="footer_bottom">
+          <div class="f_logo">
+            <img src="img/common/f_logo_w.png" alt="로고">
+            <address>(주)오리온 서울 용산구 백범로 90다길 13 사업자등록번호 709-81-00727 대표이사 이승준<br>
+              전화번호 02.710.6000 고객센터 080.023.5700(수신자 부담)</address>
+          </div><!-- f_logo -->
+          <div class="f_txt">
+            <div class="f_link">
+              <ul class="footer_link">
+                <li><a href="#">고객문의</a></li>
+                <li><a href="#">신규거래 제안</a></li>
+                <li><a href="#">채용</a></li>
+                <li><a href="#"> 법적고지</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+                <li><a href="#">오시는길</a></li>
+              </ul>
+              <ul class="footer_sns">
+                <li><a href="#"><img src="img/common/sns1.png" alt="sns"></a></li>
+                <li><a href="#"><img src="img/common/sns2.png" alt="sns"></a></li>
+                <li><a href="#"><img src="img/common/sns3.png" alt="sns"></a></li>
+                <li><a href="#"><img src="img/common/sns4.png" alt="sns"></a></li>
+                <li><a href="#"><img src="img/common/sns5.png" alt="sns"></a></li>
+              </ul>
+            </div>
+            <div class="f_family">
+              <p>OPYRIGHT ORION CORP. ALL RIGHT RESERVED.</p>
+              <form>
+                <fieldset>
+                  <legend>패밀리 사이트 영역</legend>
+                  <select>
+                    <option>패밀리사이트 바로가기</option>
+                    <option>닥터유 제주용암수</option>
+                    <option>오리온홀딩스</option>
+                    <option>쇼박스</option>
+                    <option>오리온 제주용암수</option>
+                    <option>오리온 재단</option>
+                  </select>
+                </fieldset>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery.fullPage.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
